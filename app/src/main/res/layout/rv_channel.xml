@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="10dp"
+    android:background="?selectableItemBackground"
+    android:minHeight="48dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <io.getstream.chat.android.ui.widgets.avatar.ChannelAvatarView
+            android:id="@+id/channelAvatarView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:streamUiAvatarBorderWidth="0dp"
+            app:streamUiAvatarOnlineIndicatorColor="@color/senderBackgroundColor"
+            app:streamUiAvatarOnlineIndicatorEnabled="true"
+            app:streamUiAvatarOnlineIndicatorPosition="bottomLeft" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvChannelName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/firacode_medium"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/channelAvatarView"
+            app:layout_constraintTop_toTopOf="@id/channelAvatarView" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvChannelMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/firacode_regular"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/channelAvatarView"
+            app:layout_constraintTop_toBottomOf="@id/tvChannelName" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

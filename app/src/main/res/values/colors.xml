@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="backgroundColor">#272727</color>
+    <color name="receiverTextColor">#5D5D5D</color>
+    <color name="senderTextColor">#353535</color>
+    <color name="receiverTimeTextColor">#A1A1A1</color>
+    <color name="senderTimeTextColor">#95AD4B</color>
+    <color name="receiverBackgroundColor">#FFFFFF</color>
+    <color name="senderBackgroundColor">#D7FE62</color>
+    <color name="iconBackgroundColor">#AAAAAA</color>
+
+
+</resources>
