@@ -29,7 +29,7 @@ class App : Application() {
     }
 
     private fun initClient() {
-        val apiKey = "ssz3w3kjwyxn"
+        val apiKey = "t46whwhh5fus"
 
         val statePlugin = StreamStatePluginFactory(
             config = StatePluginConfig(
